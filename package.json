@@ -1,9 +1,18 @@
 {
   "devDependencies": {
+    "snazzy": "^7.1.1",
+    "tap": "^11.1.4",
     "xhstandard": "^1.0.0"
   },
+  "scripts": {
+    "lint": "xhstandard | snazzy",
+    "fix": "xhstandard --fix",
+    "unit": "tap test.js",
+    "test": "npm run lint && npm run unit",
+    "prepush": "npm run test"
+  },
   "name": "wx-artical-tpl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wx articals template",
   "main": "index.js",
   "repository": "git@github.com:xiaohu-developer/wx-artical-tpl.git",
