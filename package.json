@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "xhstandard": "^1.0.0"
+  },
+  "name": "wx-artical-tpl",
+  "version": "1.0.0",
+  "description": "wx articals template",
+  "main": "index.js",
+  "repository": "git@github.com:xiaohu-developer/wx-artical-tpl.git",
+  "author": "BigMurry <hhdiao@siom.ac.cn>",
+  "license": "MIT",
+  "private": false
+}
